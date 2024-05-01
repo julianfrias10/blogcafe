@@ -7,7 +7,7 @@
 }
 
 header{
-    height: 100vh;
+    height: 38rem;
     background-image: url(img/banner.jpg);
    background-position: center center;
    background-size: cover ;
@@ -51,14 +51,21 @@ header{
   
 }
 
-nav{display:flex ;
-gap: 20px;}
+ nav{/*display: inline;
+    margin-right: 1rem; */
+    display:flex ;
+ gap: 20px;}  
 nav a{
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
+    /* text-align: center;
+    display: block;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none; */
 
 }
 .texto{
@@ -71,6 +78,12 @@ nav a{
     line-height: 1.2;
     font-family: 'PT Sans', sans-serif;
 }
-.texto p{font-size: 26.2px;
+.texto p{
+    font-size: 24.2px;
     font-family: 'PT Sans', sans-serif;
+    position: relative;
+    top: 6px;
 }
+/* COMIENZO DEL CONTENEDOR PRINCIPAL */
+.contenedor-principal{display: flex;
+flex-direction: row;}
