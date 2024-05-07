@@ -59,8 +59,8 @@ nav a{
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
-    font-family: 'PT Sans', sans-serif;
-    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
     /* text-align: center;
     display: block;
     font-size: 1.8rem;
@@ -86,4 +86,75 @@ nav a{
 }
 /* COMIENZO DEL CONTENEDOR PRINCIPAL */
 .contenedor-principal{display: flex;
-flex-direction: row;}
+flex-direction: row;
+gap: 40px;
+width: 90%;
+    margin: 0 auto;
+justify-content: space-evenly;}
+.imagenes img{width: 49rem;
+}
+.box2{margin-top: 36px;
+    display: flex;
+    width: 49rem;
+    flex-direction: column;
+    gap: 31px;
+}
+.box2 h1{ font-family: 'PT Sans', sans-serif;
+font-size: 2.5rem;}
+.box2 h2{ font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;}
+    .box2 p{font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+   
+        line-height: 2;
+    }
+    .box2 button{background-color: black;
+        
+        width: 13rem;
+   
+        text-align: center;
+        padding: 1rem 0rem;
+        margin: 2rem 0;
+        color: white;
+      
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+}
+.box3{margin-top: 36px;
+    display: flex;
+    width: 49rem;
+    flex-direction: column;
+    gap: 31px;
+}
+.box3 h1{ font-family: 'PT Sans', sans-serif;
+font-size: 2.5rem;}
+.box3 h2{ font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;}
+    .box3 b{font-size: 20px;
+       
+        font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+   
+        line-height: 0.5;
+        
+    }
+    .box3 p{font-size: 20px;
+       
+        font-family: 'PT Sans', sans-serif;
+  }
+    .box3 button{background-color:#784d3c;
+        
+        width: 13rem;
+   
+        text-align: center;
+        padding: 1rem 0rem;
+        margin: 2rem 0;
+        color: white;
+      
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+}
